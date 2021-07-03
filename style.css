@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.half-width {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.first-sec {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.gredient-btn {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, rgba(88, 44, 8, 0.794), rgb(246, 116, 65));
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+}
+
+.second-sec {
+    display: flex;
+
+}
+
+.cards {
+    display: flex;
+}
+
+.card1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 20px 40px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+
+
+}
+
+.card2 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 20px 40px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(41, 183, 226), #306207) 30;
+    border-image-slice: 1;
+
+}
